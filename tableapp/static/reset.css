@@ -1,0 +1,76 @@
+/* style1.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form container */
+  #reset-password-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  /* Form heading */
+  #reset-password-form h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  #reset-password-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  /* Input styles */
+  #reset-password-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  /* Button styles */
+  #reset-password-form button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #reset-password-form button:hover {
+    background: #0056b3;
+  }
+  
+  /* Error message styles */
+  #error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container {
+    margin-bottom: 30px;
+}
+
+label {
+    margin: 5px 0;
+    display: block;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.timetable th, .timetable td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.timetable th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.timetable td {
+    background-color: #f9f9f9;
+}
+
+.timetable td:hover {
+    background-color: #f0f8ff;
+    cursor: pointer;
+}
+
+.monday {
+    background-color: #ffcccb; /* Light Red */
+}
+
+.tuesday {
+    background-color: #add8e6; /* Light Blue */
+}
+
+.wednesday {
+    background-color: #d3ffd3; /* Light Green */
+}
+
+.thursday {
+    background-color: #ffeb99; /* Light Yellow */
+}
+
+.friday {
+    background-color: #ffb3e6; /* Light Pink */
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Reset Your Password</h1>
+            <p>Please enter your email address. We will send you a link to reset your password.</p>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <form id="resetForm" action="javascript:void(0);" method="POST">
+                <div class="input-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                </div>
+                <button type="submit" class="reset-btn">Send Reset Link</button>
+                <div class="message" id="message"></div>
+            </form>
+            <div class="back-link">
+                <p>Remember your password? <a href="loginpage.html">Login here</a></p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 University Timetable Generator. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

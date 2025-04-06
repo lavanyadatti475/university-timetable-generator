@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Timetable</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .timetable-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background: #28a745;
+            color: white;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        tr:hover {
+            background: rgba(40, 167, 69, 0.2);
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            table {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>University Timetable</h1>
+    <div class="timetable-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Faculty</th>
+                    <th>Course</th>
+                    <th>Classroom</th>
+                    <th>Schedule</th>
+                </tr>
+            </thead>
+            <tbody id="timetableList">
+                <!-- Timetable entries will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

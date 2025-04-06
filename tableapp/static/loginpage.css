@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+  display:flex;
+  
+  * {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s ease;
+}
+
+
+.wrapper {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height:100vh;
+  width:100%;
+  background:url('https://www.google.com/url?sa=i&url=https%3A%2F%2Flovepik.com%2Fimage-400166399%2Fbackground-of-science-and-technology-material.html&psig=AOvVaw1ktFcEO3lpUwlF3qzN32mA&ust=1735923830029000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKiborfC14oDFQAAAAAdAAAAABAJ') no-repeat;
+  background-size:cover;
+  background-position:center;
+
+}
+
+
+.login-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10p ;
+}
+
+h2 {
+  font-size:2em;
+  color:#ebebeb;
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  position:relative;
+  width:310px;
+  margin:30px 0;
+  border-bottom:1px solid #ffffff;
+}
+
+.input-box label {
+  position:absolute;
+  top:50%;
+  left:5px;
+  transform:translateY(-50%);
+  font-size:1em;
+  color:#ffffff;
+  pointer-events:none;
+  transition:.5s;
+}
+
+.input-box input:focus  ~ label,
+.input-box input:valid  ~ label {
+  top:-5px;
+  font-size: 0.8em;
+}
+
+.input-box input {
+  width:100%;
+  height:50px;
+  background:transparent;
+  border:none;
+  outline:none;
+  font-size:1em;
+  color:#ffffff;
+  padding:0 35px 0 5px;
+}
+
+.input-box .icon {
+  position:absolute;
+  right:8px;
+  top:50%;
+  color: #ffffff;
+  transform: translateY(-50%);
+}
+
+.remember-forgot {
+  margin:-15px 0 15px;
+  font-size:.9em;
+  color:#ffffff;
+  display:flex;
+  justify-content:space-between;
+}
+
+.remember-forgot label input {
+  margin-right:3px;
+}
+
+.remember-forgot a {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+.remember-forgot a:hover {
+  text-decoration:underline;
+}
+
+button {
+  width:100%;
+  height:40px;
+  background-color:#0d00ff;
+  border:none;
+  border-radius:40px;
+  cursor:pointer;
+  font-size:1em;
+  color:#ffffff;
+  font-weight:500;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #00ff337a;
+}
+
+.register-link {
+  font-size:.9em;
+  color:#ffffff;
+  text-align:center;
+  margin:25px 0 10px;
+}
+
+.register-link p a {
+  color:#ffffff;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.register-link p a:hover {
+  text-decoration:underline;
+}
+
+@media (max-width:500px) {
+  .login-box {
+    width:100%;
+    height:100vh;
+    border:none;
+    border-radius:0;
+  }
+  .input-box {
+    width:290px;
+  }
+}
+  justify-content:center;
+  align-items: center;
+  height:100vh;
+  width:100%;
+  background:url("cyber.webp") no-repeat;
+  background-size:cover;
+  background-position:center;
+  animation: 5s linear infinite;
+}
+@keyframes animateBg {
+  100% {
+    filter:hue-rotate(360deg);
+  }
+}
+.login-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  border-radius: 15px;
+  border: 2px solid rgba(255,255,255,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+}
+h2 {
+  font-size:2em;
+  color:#ffffff;
+  text-align:center;
+}
+.input-box {
+  position:relative;
+  width:310px;
+  margin:30px 0;
+  border-bottom:1px solid #ffffff;
+}
+.input-box label {
+  position:absolute;
+  top:50%;
+  left:5px;
+  transform:translateY(-50%);
+  font-size:1em;
+  color:#ffffff;
+  pointer-events:none;
+  transition:.5s;
+}
+.input-box input:focus  ~ label,
+.input-box input:valid  ~ label {
+  top:-5px;
+}
+.input-box input {
+  width:100%;
+  height:50px;
+  background:transparent;
+  border:none;
+  outline:none;
+  font-size:1em;
+  color:#ffffff;
+  padding:0 35px 0 5px;
+}
+.input-box .icon {
+  position:absolute;
+  right:8px;
+  top:50%;
+  color: #ffffff;
+  transform: translateY(-50%);
+}
+.remember-forgot {
+  margin:-15px 0 15px;
+  font-size:.9em;
+  color:#f7f7f7;
+  display:flex;
+  justify-content:space-between;
+}
+.remember-forgot label input {
+  margin-right:3px;
+}
+.remember-forgot a {
+  color:#ffffff;
+  text-decoration:none;
+}
+.remember-forgot a:hover {
+  text-decoration:underline;
+}
+button {
+  width:100%;
+  height:40px;
+  background-color:#9107fa;
+  border:none;
+  border-radius:40px;
+  cursor:pointer;
+  font-size:1em;
+  color:#000;
+  font-weight:500;
+}
+.register-link {
+  font-size:.9em;
+  color:#fff;
+  text-align:center;
+  margin:25px 0 10px;
+}
+.register-link p a {
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+}
+.register-link p a:hover {
+  text-decoration:underline;
+}
+@media (max-width:500px) {
+  .login-box {
+    width:100%;
+    height:100vh;
+    border:none;
+    border-radius:0;
+  }
+  .input-box {
+    width:290px;
+  }
+}
